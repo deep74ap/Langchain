@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "format",
+        "player",
+        "venue"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\n    You are a cricket statistician. Given the cricketer \"{player}\", format \"{format}\", and venue type \"{venue}\", \n    provide the following:\n\n    - Total matches played\n    - Total runs scored\n    - Batting average\n    - Any notable high scores\n\n    Respond in a clean, readable format. If the player hasn't played in that condition, say \"Data not available\".\n    ",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}
